@@ -1053,9 +1053,15 @@ export const socialMedia = [
 // Your professional summary
 export const aboutMe = {
     name: "Mukarram Ali",
+<<<<<<< HEAD
     githubUsername: 'mukarramshabbir',
     tagLine: "Levelled Seller @Fiverr | Software Developer @Cyberformation Ltd | GC Member @UET Tribune | OC Member @Zindigi Prize",
     intro: "Software Developer from Paksitan who is either busy improving his craft or pondering over the next big idea."
+=======
+    githubUsername: 'mittal-parth',
+    tagLine: "MTS-1 @Oracle | ex-Tech Lead @IRIS,NITK | ETHIndia'22,24 Winner | 8x Hackathon Winner | NITK'24 | PBA-5",
+    intro: "Software Developer from India who is either busy improving his craft or pondering over the next big idea."
+>>>>>>> d18512096e5f4ab5be3724e9317e9d1ddaa5446a
 }
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
