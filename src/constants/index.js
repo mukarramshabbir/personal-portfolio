@@ -25,7 +25,8 @@ import {
   manipal,
   icon,
   ethforall,
-  ethindia
+  ethindia,
+  fiverr,
 } from "../assets";
 
 import {
@@ -92,7 +93,7 @@ import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 export const resumeLink = "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
 export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
 
-export const callToAction = "https://www.linkedin.com/in/mittal-parth";
+export const callToAction = "https://www.linkedin.com/in/mukarram-ali-601903146/";
 
 export const navLinks = [
   {
@@ -397,12 +398,12 @@ export const skills = [
 // Add your current/past professional work experience here
 export const experiences = [
   {
-    organisation: "Oracle, India",
-    logo: oracle,
-    link: "https://www.oracle.com/in/",
+    organisation: "Fiverr",
+    logo: fiverr,
+    link: "https://www.fiverr.com/s/Q7yDK9P",
     positions: [
       {
-        title: "Member of Technical Staff - 1",
+        title: "Python Engineer",
         duration: "Jul 2024 - Present",
         content: [
           {
@@ -1051,10 +1052,10 @@ export const socialMedia = [
 
 // Your professional summary
 export const aboutMe = {
-    name: "Parth Mittal",
-    githubUsername: 'mittal-parth',
-    tagLine: "MTS-1 @Oracle | ex-Tech Lead @IRIS,NITK | ETHIndia'22,24 Winner | 8x Hackathon Winner | NITK'24 | PBA-5",
-    intro: "Software Developer from India who is either busy improving his craft or pondering over the next big idea."
+    name: "Mukarram Ali",
+    githubUsername: 'mukarramshabbir',
+    tagLine: "Levelled Seller @Fiverr | Software Developer @Cyberformation Ltd | GC Member @UET Tribune | OC Member @Zindigi Prize",
+    intro: "Software Developer from Paksitan who is either busy improving his craft or pondering over the next big idea."
 }
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.

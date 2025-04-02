@@ -30,6 +30,8 @@ import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
 import ethindia from "./ethindia.png";
+import Mukarram from "./muk.svg";
+import fiverr from "./fiverr.png";
 
 export {
   menu,
@@ -63,5 +65,7 @@ export {
   manipal,
   icon,
   ethforall,
-  ethindia
+  ethindia,
+  Mukarram,
+  fiverr
 };
