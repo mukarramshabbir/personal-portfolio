@@ -27,6 +27,8 @@ import {
   ethforall,
   ethindia,
   fiverr,
+  bytewise,
+  codeformpro,
 } from "../assets";
 
 import {
@@ -72,7 +74,11 @@ import {
   SiOpenai,
   SiGooglecloud,
   SiNextdotjs,
-  SiMicrosoftazure
+  SiMicrosoftazure,
+  SiR,
+  SiCsharp,
+  SiPostgresql,
+  SiPowerbi
 } from "react-icons/si";
 
 import {
@@ -295,6 +301,16 @@ export const skills = [
         id: "pl-11",
         icon: SiSolidity,
         name: "Solidity",
+      },
+      {
+        id: "pl-12",
+        icon: SiR,
+        name: "R",
+      },
+      {
+        id: "pl-13",
+        icon: SiCsharp,
+        name: "C#",
       }
     ],
   },
@@ -391,6 +407,16 @@ export const skills = [
         icon: SiVite,
         name: "ViteJS",
       },
+      {
+        id: "t-10",
+        icon: SiPowerbi, 
+        name: "Power BI",
+      },
+      {
+        id: "t-11",
+        icon: SiPostgresql, 
+        name: "SQL",
+      }
     ],
   },
 ];
@@ -405,96 +431,108 @@ export const experiences = [
       {
         title: "Python Engineer",
         duration: "Jul 2024 - Present",
+        link: "https://www.fiverr.com/s/Eglb3kd",
         content: [
           {
-            text: "Working in the Database as a Service Control Plane team for Oracle Cloud Infrastructure.",
-            link: "",
+            text: "Developed Django CRM tools + deployed Flask e-commerce (bike/fitness) with 30% faster checkout flows.",
+            
           },
         ],
       },
       {
-        title: "Member of Technical Staff Intern",
+        title: "Web Automation Expert",
         duration: "May 2023 - Jul 2023",
+        link: "https://www.fiverr.com/s/Ld8lVzY",
         content: [
           {
-            text: "Worked with the Exadata Cloud@Customer team in the Database Unit.",
-            link: "",
+            text: "Delivering solutions for data extraction (e-commerce, news, APIs) and workflow automation.",
           },
           {
-            text: "Wrote APIs in Java to help gracefully migrate a running ExaC@C infrastructure to a new region in the case of a region failure",
-            link: ""
+            text: "Expertise in handling proxies, CAPTCHAs, and large-scale data pipelines.",
           }
+        ],
+      },
+      {
+        title: "Data Visualization Expert",
+        duration: "Jul 2024 - Present",
+        link: "https://www.fiverr.com/s/7Yl04w4",
+        content: [
+          {
+            text: "Transforming raw data into dynamic, interactive dashboards using PowerBI and Tableau",
+          },
+          {
+            text: "User-friendly dashboards with 2+ years of experience in data storytelling",
+          }
+        ],
+      },
+      {
+        title: "Shopify Developer",
+        duration: "Jun 2025 - Present",
+        link: "https://www.fiverr.com/s/Zmx9mWa",
+        content: [
+          {
+            text: "Built 10+ high-converting Shopify stores, optimized checkout flows that reduced cart abandonment by 35% for e-commerce clients.",
+          },
         ],
       },
     ],
   },
   {
-    organisation: "Averlon",
-    logo: averlon,
-    link: "https://averlon.ai/",
+    organisation: "Bytewise Ltd",
+    logo: bytewise,
+    link: "https://www.bytewiseltd.com/",
     positions: [
       {
-        title: "Software Developer Intern",
-        duration: "Sept 2023 - Feb 2024",
+        title: "Android Developer Intern",
+        duration: "Mar 2023 - Jun 2023",
+        link: "https://verification.givemycertificate.com/v/30673fb4-5feb-4b01-b539-4ca74f0b70d8",
         content: [
           {
-            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
-            link: ""
+            text: "Contributed to 3+ Flutter projects at Bytewise Ltd, implementing REST APIs and mentoring peers in widget optimization.",
           },
           {
-            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
-            link: ""
-          }
+            text: "Optimized state management with Provider and reducing app load time by 25%.",
+          },
         ],
       },
     ],
   },
   {
-    organisation: "IRIS, NITK",
-    logo: iris,
-    link: "https://iris.nitk.ac.in/about_us",
+    organisation: "Codeformpro",
+    logo: codeformpro,
+    link: "https://codeformpro.com/",
     positions: [
       {
         title: "Tech Lead",
-        duration: "Apr 2023 - Apr 2024",
+        duration: "Aug 2023 - Present",
+        link: "https://codeformpro.com/",
         content: [
           {
-            text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
-            link: "",
-          },
-          {
-            text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
-            link: "",
+            text: "Led a team of 10+ Developers in digitizing administrative, academic and alumni-related work.",
+            
           },
         ],
       },
       {
-        title: "Web Lead",
-        duration: "Apr 2022 - Present",
+        title: "Web and software Developer",
+        duration: "Nov 2021 - Apr 2023",
+        link: "https://codeformpro.com/",
         content: [
           {
-            text: "Managed a team of 6 student developers while also overlooking multiple modules.",
-            link: "",
+            text: "Built responsive web applications using React, Node.js, and Django, optimizing database performance by 40%.",
           },
+          {
+            text: "Developed scalable SaaS solutions with Python/Flask, reducing API response time by 30%. Automated CI/CD pipelines using Docker & Azure",  
+          },  
         ],
       },
       {
-        title: "Web Developer",
-        duration: "Nov 2021 - Apr 2022",
-        content: [
-          {
-            text: "Added Conditional Fields support to the Forms Module.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer Intern",
+        title: "Data Scientist",
         duration: "Jun 2021 - Oct 2021",
+        link: "https://drive.google.com/file/d/1elwwtxbRgZAC-b8rRQJSjxFHEMniDImN/view?usp=sharing",
         content: [
           {
-            text: "Developed a multi-role approval flow system to facilitate data collection and display on the Institute's Department Websites.",
-            link: "",
+            text: "Analyzed Excel datasets to extract actionable trends, built automated Python scripts for data cleaning, and delivered insights that reduced operational costs by 18%.",
           },
         ],
       },

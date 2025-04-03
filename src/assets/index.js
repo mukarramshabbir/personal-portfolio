@@ -32,6 +32,8 @@ import ethforall from "./ethforall.png";
 import ethindia from "./ethindia.png";
 import Mukarram from "./muk.svg";
 import fiverr from "./fiverr.png";
+import bytewise from "./bytewise.png";
+import codeformpro from "./codeformpro.png";
 
 export {
   menu,
@@ -67,5 +69,7 @@ export {
   ethforall,
   ethindia,
   Mukarram,
-  fiverr
+  fiverr,
+  bytewise,
+  codeformpro
 };
