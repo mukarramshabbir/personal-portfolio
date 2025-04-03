@@ -29,6 +29,8 @@ import {
   fiverr,
   bytewise,
   codeformpro,
+  uet,
+  hongkong,
 } from "../assets";
 
 import {
@@ -136,20 +138,22 @@ export const navLinks = [
 export const educationList = [
   {
     id: "education-1",
-    icon: nitk,
-    title: "National Institute of Technology Karnataka, Surathkal",
-    degree: "Bachelor of Technology",
-    duration: "December 2020 - May 2024",
-    content1: "Major: Electronics and Communication Engineering",
-    content2: "Minor: Information Technology",
+    icon: uet,
+    title: "University of Enginering and Technology, Lahore",
+    degree: "Bachelor of Computer Science",
+    duration: "September 2021 - May 2025",
+    content1: "Major: Artificial Intelligence & Machine Learning",
+    content2: "Major: Software Engineering",
+    link: "https://www.linkedin.com/in/mukarram-ali-601903146/",
   },
   {
     id: "education-2",
-    icon: pba,
-    title: "Polkadot Blockchain Academy",
-    degree: "",
-    duration: "May 2024 - June 2024",
-    content1: "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
+    icon: hongkong,
+    title: "University of Hong Kong",
+    degree: "Web Development Course",
+    duration: "May 2022 - Aug 2022",
+    content1: "Studied Front-End Web UI Frameworks. Gained skills in Bootstrap, Node.js, SASS, and jQuery for responsive web design.",
+    link: "https://coursera.org/share/6e37063201f62c9e403b9ea6d1404ae1",
   },
 ];
 

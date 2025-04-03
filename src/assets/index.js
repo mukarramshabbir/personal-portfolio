@@ -34,6 +34,8 @@ import Mukarram from "./muk.svg";
 import fiverr from "./fiverr.png";
 import bytewise from "./bytewise.png";
 import codeformpro from "./codeformpro.png";
+import uet from "./uet.png";
+import hongkong from "./hongkong.png";
 
 export {
   menu,
@@ -71,5 +73,7 @@ export {
   Mukarram,
   fiverr,
   bytewise,
-  codeformpro
+  codeformpro,
+  uet,
+  hongkong
 };

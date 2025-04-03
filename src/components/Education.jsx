@@ -16,6 +16,7 @@ const defaultOptions = {
 
 const FeatureCard = ({
   icon,
+  link,
   title,
   degree,
   duration,
@@ -27,15 +28,18 @@ const FeatureCard = ({
     className={`flex flex-row p-6 rounded-[20px]
 	${index === educationList.length - 1 ? "mb-0" : "mb-6"} feature-card`}
   >
+    <a href={link} target="_blank">
     <div
-      className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
-    >
+      className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
       <img src={icon} alt="icon" className="w-[80%] h-[80%] object-contain" />
     </div>
-    <div className="flex-1 flex flex-col ml-4">
+    </a>
+      <div className="flex-1 flex flex-col ml-4">
+      <a href={link} target="_blank">
       <h4 className="font-poppins font-semibold text-white text-[20px] leading-[30px] mb-1 text-gradient">
         {title}
       </h4>
+      </a>
       <p className="font-poppins font-normal text-white text-[16px] leading-[30px] mb-1 ">
         {degree}
       </p>
@@ -51,6 +55,7 @@ const FeatureCard = ({
         </p>
       )}
     </div>
+    
   </div>
 );
 
