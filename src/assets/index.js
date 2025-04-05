@@ -36,6 +36,9 @@ import bytewise from "./bytewise.png";
 import codeformpro from "./codeformpro.png";
 import uet from "./uet.png";
 import hongkong from "./hongkong.png";
+import google from "./google.png";
+import zindigi from "./zindigi.jpg";
+import hackerrank from "./hackerrank.jpg";
 
 export {
   menu,
@@ -75,5 +78,8 @@ export {
   bytewise,
   codeformpro,
   uet,
-  hongkong
+  hongkong,
+  google,
+  zindigi,
+  hackerrank
 };
