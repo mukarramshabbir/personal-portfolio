@@ -39,6 +39,13 @@ import hongkong from "./hongkong.png";
 import google from "./google.png";
 import zindigi from "./zindigi.jpg";
 import hackerrank from "./hackerrank.jpg";
+import profile_Pic from "./profile-pic.png";
+import cocktail from "./Cocktail.png";
+import TravelSite from "./TravelSite.png";
+import distribution from "./Distribution.jpg";
+import youtubebot from "./youtubebot.png";
+import datascience from "./datascience.png";
+import al from "./al.png";
 
 export {
   menu,
@@ -81,5 +88,12 @@ export {
   hongkong,
   google,
   zindigi,
-  hackerrank
+  hackerrank,
+  profile_Pic,
+  cocktail,
+  TravelSite,
+  distribution,
+  youtubebot,
+  datascience,
+  al
 };

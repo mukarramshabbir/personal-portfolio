@@ -34,6 +34,12 @@ import {
   google,
   zindigi,
   hackerrank,
+  cocktail,
+  TravelSite,
+  distribution,
+  youtubebot,
+  datascience,
+  al,
 } from "../assets";
 
 import {
@@ -83,7 +89,18 @@ import {
   SiR,
   SiCsharp,
   SiPostgresql,
-  SiPowerbi
+  SiPowerbi,
+  SiFirebase,
+  SiVercel,
+  SiHtml5,
+  SiCss3,
+  SiSelenium,
+  SiPandas,
+  SiYoutube,
+  SiInstagram,
+  SiDart,
+  SiSwift,
+  SiMacos
 } from "react-icons/si";
 
 import {
@@ -521,12 +538,13 @@ export const experiences = [
 export const projects = [
   {
     id: "project-1",
-    title: "Comicify.ai",
-    github: "https://github.com/ayush4345/Comicify.ai",
-    link: "https://comicify-ai.vercel.app/",
-    image: comicify_ai,
+    title: "Cocktail Corner",
+    github: "https://github.com/mukarramshabbir/Cocktails-Corner",
+    link: "https://cocktailscorner.vercel.app/",
+    image: cocktail,
+    imageClass: "invert brightness-0",
     content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
+      "Allows users to search for cocktail recipes, save their favorite cocktails, and view detailed information about each cocktail.",
     stack: [
       {
         id: "icon-1",
@@ -540,29 +558,24 @@ export const projects = [
       },
       {
         id: "icon-3",
-        icon: SiOpenai,
-        name: "OpenAI"
+        icon: SiFirebase,
+        name: "Firebase"
       },
       {
         id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform"
-      },
-      {
-        id: "icon-5",
-        icon: SiFlask,
-        name: "Flask"
+        icon: SiVercel,
+        name: "Vercel"
       },
     ],
   },
   {
     id: "project-2",
-    title: "GreenTrust",
-    github: "https://github.com/mittal-parth/GreenTrust",
-    link: "https://green-trust-fantom.netlify.app/",
-    image: greentrust,
+    title: "Travel Agency",
+    github: "https://github.com/mukarramshabbir/Travel-Agency",
+    link: "https://drive.google.com/file/d/1bSRZ6dOO6PkpUUa-zcon6XUcEDlrj-x8/view?usp=sharing",
+    image: TravelSite,
     content:
-      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
+      "This is a modern, fast, and responsive Travel Agency website built with **Vite** and frontend web technologies. It is designed for optimal performance and scalability, making it easy to maintain and extend.",
     stack: [
       {
         id: "icon-1",
@@ -571,100 +584,91 @@ export const projects = [
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: SiVite,
+        name: "Vite"
       },
       {
         id: "icon-3",
-        icon: SiNextdotjs,
-        name: "Next.js"
+        icon: SiHtml5,
+        name: "Html"
       },
       {
         id: "icon-4",
-        icon: SiIpfs,
-        name: "IPFS"
+        icon: SiCss3,
+        name: "CSS"
       },
       {
         id: "icon-5",
-        icon: SiSolidity,
-        name: "Solidity"
+        icon: SiMysql,
+        name: "MySql"
       },
       {
         id: "icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
+        icon: SiJavascript,
+        name: "Javascript"
       },
     ],
   },
   {
     id: "project-3",
-    title: "ChargeSwap",
-    github: "https://github.com/CommanderAstern/ChargeSwap",
-    link: "https://devfolio.co/projects/chargeswap-3527",
-    image: chargeswap,
+    title: "Distribution System",
+    github: "https://github.com/mukarramshabbir/ARM-Distribution-Company/tree/master",
+    link: "https://www.linkedin.com/posts/mukarram-ali-601903146_supplychain-desktopapplication-python-activity-7012324000794066944-EcYa?utm_source=share&utm_medium=member_desktop&rcm=ACoAACNfo6EBX0dkAKB2DtZj5Q6dWtoqp14IOCg",
+    image: distribution,
     content:
-      "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon",
+      "ARM Limited a distribution company which takes 16 category of shoes from manufacturer companies and deliver to shopkeeper. The main aim of this project to stimulate the data structures and algorithms concepts.",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiPython,
+        name: "Python"
       },
       {
         id: "icon-3",
-        icon: SiWeb3Dotjs,
-        name: "Web3.js"
+        icon: SiMysql,
+        name: "MySql"
       },
       {
         id: "icon-4",
-        icon: SiSolidity,
+        icon: SiSelenium,
         name: "Solidity"
       },
       {
         id: "icon-5",
-        icon: FaHardHat,
-        name: "HardHat"
+        icon: SiGooglemaps,
+        name: "GoogleMap"
       },
       {
         id: "icon-6",
-        icon: SiIpfs,
+        icon: SiPandas,
         name: "IPFS"
       },
-      {
-        id: "icon-7",
-        icon: SiArduino,
-        name: "Arduino"
-      },
-      {
-        id: "icon-8",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
-      },
+      
     ],
   },
   {
     id: "project-4",
-    title: "Samsotech Table Management System",
-    github: "",
-    link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
-    image: placeicon,
+    title: "Scrapping Social Videos",
+    github: "https://github.com/mukarramshabbir/YoutubeBot",
+    link: "https://www.upwork.com/freelancers/~01f79fb50ab63f42ad?p=1671438627452485632",
+    image: youtubebot,
     content:
-      "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
+      "This bot is developed to scrap videos from youtube and instagram from the respective channels that will be inputed. Then from these channels download the videos and upload it on the youtube account",
     stack: [
       {
         id: "icon-1",
-        icon: SiDotnet,
-        name: "Dot Net Core MVC 6"
+        icon: SiPython,
+        name: "Python"
       },
       {
         id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap"
+        icon: SiSelenium,
+        name: "Selenium"
       },
       {
         id: "icon-3",
-        icon: DiMsqlServer,
-        name: "MS Sql Server"
+        icon: SiYoutube,
+        name: "Youtube"
       },
       {
         id: "icon-4",
@@ -673,91 +677,91 @@ export const projects = [
       },
       {
         id: "icon-5",
-        icon: SiTwilio,
-        name: "Twillio"
+        icon: SiInstagram,
+        name: "Instagram"
       },
     ],
   },
   {
     id: "project-5",
-    title: "Non-Teaching Recruitment Portal, NITK",
-    github: "",
-    link: "http://recruitment.nitk.ac.in/",
+    title: "Document Scan Mobile App",
+    github: "https://github.com/mukarramshabbir/Edge_Detetction_App",
+    link: "https://drive.google.com/file/d/1gDSB98HCU8vaKyfOcaYMmLlQuS1wPInz/view?usp=sharing",
     image: recruitment,
     content:
-      "The official recruitment portal for non-teaching staff with an admin panel, email notifications and payment integration.",
+      "This app is designed similar to the CamScanner. The user can take the pictures that will be automatically Edge detected and cropped to the size of page and then saved as pdf file.",
     stack: [
       {
         id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
+        icon: SiFlutter,
+        name: "Flutter"
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: SiDart,
+        name: "Dart"
       },
       {
         id: "icon-3",
-        icon: SiJquery,
-        name: "jQuery"
+        icon: SiFirebase,
+        name: "Firebase"
       },
     ],
   },
   {
     id: "project-6",
-    title: "Career Development Centre, NITK Website",
+    title: "Data Science Project",
     github: "",
-    link: "http://cdc.nitk.ac.in/",
-    image: cdc,
+    link: "https://www.upwork.com/freelancers/~01f79fb50ab63f42ad?p=1775649535183540224",
+    image: datascience,
     content:
-      "The official website of CDC, NITK with a custom built CMS.",
+      "Explore the expansive realm of electric vehicle (EV) infrastructure across the United States through our dynamic PowerBI Dashboard.",
     stack: [
       {
         id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
+        icon: SiPowerbi,
+        name: "PowerBi"
       },
       {
         id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap"
+        icon: SiMysql,
+        name: "MySql"
       },
       {
         id: "icon-3",
-        icon: SiJavascript,
-        name: "JavaScript"
+        icon: SiPython,
+        name: "Python"
       },
     ],
   },
   {
     id: "project-7",
-    title: "Huntly",
-    github: "",
-    link: "https://devfolio.co/projects/huntly-b5a9",
-    image: huntly,
+    title: "AL Mobile App",
+    github: "https://github.com/mukarramshabbir/AL-Mobile-App",
+    link: "https://drive.google.com/file/d/1pAWxzypwfqzLxfj1Z7-uRL3g0Gz8Fqg0/view?usp=sharing",
+    image: al,
     content:
-      "A cross-platform mobile application that brings people closer to the physical environment and forms meaningful connections by organising real-world Treasure Hunts for free and winning rewards. The app uses machine learning to match users and form teams of like-minded people.",
+      "AL (Alert & Alarm) is a security app focused on enhancing public safety by allowing users to report incidents, civilian risks, and apocrypha within Mexico.",
     stack: [
       {
         id: "icon-1",
-        icon: SiDjango,
-        name: "Django Rest Framework"
+        icon: SiReact,
+        name: "React Native"
       },
       {
         id: "icon-2",
-        icon: SiFlutter,
-        name: "Flutter"
+        icon: SiSwift,
+        name: "Swift"
       },
       {
         id: "icon-3",
-        icon: SiReplit,
-        name: "Replit"
+        icon: SiFirebase,
+        name: "Firebase"
       },
       {
         id: "icon-4",
-        icon: SiFlask,
-        name: "Flask"
+        icon: SiMacos,
+        name: "Mac OS"
       },
       {
         id: "icon-5",
