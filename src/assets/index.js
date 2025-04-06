@@ -42,7 +42,7 @@ import hackerrank from "./hackerrank.jpg";
 import profile_Pic from "./profile-pic.png";
 import cocktail from "./Cocktail.png";
 import TravelSite from "./TravelSite.png";
-import distribution from "./Distribution.jpg";
+import distribution from "./Distribution.png";
 import youtubebot from "./youtubebot.png";
 import datascience from "./datascience.png";
 import al from "./al.png";
