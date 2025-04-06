@@ -767,6 +767,7 @@ export const projects = [
         id: "icon-5",
         icon: SiFigma,
         name: "Figma"
+        
       },
       {
         id: "icon-6",
