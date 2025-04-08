@@ -118,8 +118,8 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
-export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
+export const resumeLink = "https://drive.google.com/file/d/17ke9suIJkqWcLB8GBKhFS8bwyinj4bQo/view?usp=sharing";
+export const repoLink = "https://github.com/mukarramshabbir";
 
 export const callToAction = "https://www.linkedin.com/in/mukarram-ali-601903146/";
 
@@ -201,6 +201,16 @@ export const achievements = [
     youtube: "https://youtube.com/shorts/tAQF3k0-kQ4?si=mx0kZDPhm9jg-nAN",
   },
   {
+    id: "a-5",
+    icon: fiverr,
+    event: "Fiverr'24 | Became Level 2 Seller",
+    position: "Level 2 Seller",
+    content1: "Rated the best seller among participants across the globe.",
+    content2: "Gained Client Satisfaction 100%",
+    content3: "Excellent Rating on profile",
+    project: "https://www.linkedin.com/posts/mukarram-ali-601903146_fiverr-levelup-freelancer-activity-7234900755789299712-A8VJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAACNfo6EBX0dkAKB2DtZj5Q6dWtoqp14IOCg",
+  },
+  {
     id: "a-3",
     icon: hackerrank,
     event: "HackerRank'23 | SQL Certified",
@@ -223,17 +233,6 @@ export const achievements = [
     article: "https://www.linkedin.com/posts/mukarram-ali-601903146_hackerrank-skill-certificate-activity-7039103039936303104-ut94?utm_source=share&utm_medium=member_desktop&rcm=ACoAACNfo6EBX0dkAKB2DtZj5Q6dWtoqp14IOCg",
     project: "https://www.hackerrank.com/certificates/fc4f28076e60",
   },
-  {
-    id: "a-5",
-    icon: fiverr,
-    event: "Fiverr'24 | Became Level 2 Seller",
-    position: "Level 2 Seller",
-    content1: "Rated the best seller among participants across the globe.",
-    content2: "Gained Client Satisfaction 100%",
-    content3: "Excellent Rating on profile",
-    project: "https://www.linkedin.com/posts/mukarram-ali-601903146_fiverr-levelup-freelancer-activity-7234900755789299712-A8VJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAACNfo6EBX0dkAKB2DtZj5Q6dWtoqp14IOCg",
-  },
-  
 ];
 
 // Add your software developments skills here for example - programming languages, frameworks etc.
@@ -537,24 +536,23 @@ export const experiences = [
 // Add information about all the projects to be listed out in your portfolio
 export const projects = [
   {
-    id: "project-1",
-    title: "Cocktail Corner",
-    github: "https://github.com/mukarramshabbir/Cocktails-Corner",
-    link: "https://cocktailscorner.vercel.app/",
-    image: cocktail,
-    imageClass: "invert brightness-0",
+    id: "project-7",
+    title: "AL Mobile App",
+    github: "https://github.com/mukarramshabbir/AL-Mobile-App",
+    link: "https://drive.google.com/file/d/1-8MzSugO5iqSJj3xdg_3tRYa-Q6ty97q/view?usp=sharing",
+    image: al,
     content:
-      "Allows users to search for cocktail recipes, save their favorite cocktails, and view detailed information about each cocktail.",
+      "AL (Alert & Alarm) is a security app focused on enhancing public safety by allowing users to report incidents, civilian risks, and apocrypha within Mexico.",
     stack: [
       {
         id: "icon-1",
         icon: SiReact,
-        name: "React"
+        name: "React Native"
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: SiSwift,
+        name: "Swift"
       },
       {
         id: "icon-3",
@@ -563,14 +561,25 @@ export const projects = [
       },
       {
         id: "icon-4",
-        icon: SiVercel,
-        name: "Vercel"
+        icon: SiMacos,
+        name: "Mac OS"
+      },
+      {
+        id: "icon-5",
+        icon: SiFigma,
+        name: "Figma"
+
+      },
+      {
+        id: "icon-6",
+        icon: SiGooglemaps,
+        name: "Google Maps API"
       },
     ],
   },
   {
     id: "project-2",
-    title: "Travel Agency",
+    title: "Travel Agency Website",
     github: "https://github.com/mukarramshabbir/Travel-Agency",
     link: "https://drive.google.com/file/d/1bSRZ6dOO6PkpUUa-zcon6XUcEDlrj-x8/view?usp=sharing",
     image: TravelSite,
@@ -734,122 +743,16 @@ export const projects = [
       },
     ],
   },
+  
   {
-    id: "project-7",
-    title: "AL Mobile App",
-    github: "https://github.com/mukarramshabbir/AL-Mobile-App",
-    link: "https://drive.google.com/file/d/1pAWxzypwfqzLxfj1Z7-uRL3g0Gz8Fqg0/view?usp=sharing",
-    image: al,
+    id: "project-1",
+    title: "Cocktail Corner Website",
+    github: "https://github.com/mukarramshabbir/Cocktails-Corner",
+    link: "https://cocktailscorner.vercel.app/",
+    image: cocktail,
+    imageClass: "invert brightness-0",
     content:
-      "AL (Alert & Alarm) is a security app focused on enhancing public safety by allowing users to report incidents, civilian risks, and apocrypha within Mexico.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React Native"
-      },
-      {
-        id: "icon-2",
-        icon: SiSwift,
-        name: "Swift"
-      },
-      {
-        id: "icon-3",
-        icon: SiFirebase,
-        name: "Firebase"
-      },
-      {
-        id: "icon-4",
-        icon: SiMacos,
-        name: "Mac OS"
-      },
-      {
-        id: "icon-5",
-        icon: SiFigma,
-        name: "Figma"
-        
-      },
-      {
-        id: "icon-6",
-        icon: SiGooglemaps,
-        name: "Google Maps API"
-      },
-    ],
-  },
-  {
-    id: "project-8",
-    title: "Cluboard",
-    github: "https://github.com/mittal-parth/Cluboard",
-    link: "",
-    image: cluboard,
-    content:
-      "A full-stack web application to facilitate sharing resources in college clubs with email notifications, requests and ticketing system, and analytical dashboards.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDjango,
-        name: "Django"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      },
-      {
-        id: "icon-4",
-        icon: SiJavascript,
-        name: "JavaScript"
-      },
-      {
-        id: "icon-5",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-6",
-        icon: SiChartdotjs,
-        name: "Chart.js"
-      },
-    ],
-  },
-  {
-    id: "project-9",
-    title: "Cash Flow Minimiser",
-    github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
-    link: "https://minimise-cash-flow.netlify.app/",
-    image: cash_flow,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-10",
-    title: "Portfolio",
-    github: "https://github.com/mittal-parth/personal-portfolio",
-    link: "https://parthmittal.netlify.app/",
-    image: portfolio,
-    content: "Personal portfolio website with React and Tailwind CSS.",
+      "Allows users to search for cocktail recipes, save their favorite cocktails, and view detailed information about each cocktail.",
     stack: [
       {
         id: "icon-1",
@@ -859,15 +762,21 @@ export const projects = [
       {
         id: "icon-2",
         icon: SiTailwindcss,
-        name: "Tailwind CSS"
+        name: "TailwindCSS"
       },
       {
         id: "icon-3",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiFirebase,
+        name: "Firebase"
+      },
+      {
+        id: "icon-4",
+        icon: SiVercel,
+        name: "Vercel"
       },
     ],
   },
+  
 ];
 
 // Add links to blogs here
@@ -1046,27 +955,27 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/mittal-parth",
+    link: "https://www.linkedin.com/in/mukarram-ali-601903146/",
   },
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://www.github.com/mittal-parth",
+    link: "https://github.com/mukarramshabbir",
   },
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:mittalparth22@gmail.com",
+    link: "mailto:mukarramali623@gmail.com",
   },
   {
     id: "social-media-4",
     icon: AiOutlineTwitter,
-    link: "https://www.twitter.com/mittalparth_",
+    link: "https://www.twitter.com/mukarramali623",
   },
   {
     id: "social-media-5",
     icon: AiFillInstagram,
-    link: "https://www.instagram.com/mittalparth_",
+    link: "https://www.instagram.com/mukarramali623/profilecard/?igsh=MXJiYmh1dDE2N290Yw==",
   },
 ];
 
