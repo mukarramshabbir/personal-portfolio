@@ -983,7 +983,7 @@ export const socialMedia = [
 export const aboutMe = {
     name: "Mukarram Ali",
     githubUsername: 'mukarramshabbir',
-    tagLine: "Levelled Seller @Fiverr | Software Developer @Cyberformation Ltd | GC Member @UET Tribune | OC Member @Zindigi Prize",
+    tagLine: "Top Rated @Upwork | Software Developer @Cyberformation Ltd | GC Member @UET Tribune | OC Member @Zindigi Prize",
     intro: "Software Developer who is either busy improving his craft or pondering over the next big idea."
 }
 
